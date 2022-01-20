@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="mainSection">
+        <section class="section1">
+            <h1 class="welcomeText">Welcome to our game</h1>
+            <h1 class="pickText">Please choose X or O</h1>
+            <div class="divForButs">
+                <div class="butX" id="butX" onclick="pickX()">X</div>
+                <div class="butPlay" onclick="playPick()">Play</div>
+                <div class="butO" id="butO" onclick="pickO()" >O</div>
+            </div>
+        </section>
+
+        <section class="section2">
+            <h1 class="gameTitle">Tic Tac Toe</h1>
+            <div class="gameContainer" id="main">
+                <div id="box0" class="cell"></div>
+                <div id="box1" class="cell"></div>
+                <div id="box2" class="cell"></div>
+                <div id="box3" class="cell"></div>
+                <div id="box4" class="cell"></div>
+                <div id="box5" class="cell"></div>
+                <div id="box6" class="cell"></div>
+                <div id="box7" class="cell"></div>
+                <div id="box8" class="cell"></div>
+            </div>
+            <h2 id="gameStatus"></h2>
+                <button class="gameRestart">Restart Game</button>
+        </section>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
